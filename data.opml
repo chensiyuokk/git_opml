@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<opml version="1.0"><head><title>SW</title></head><body>
+	<outline text="APP ">
+		<outline text="main " />
+		<outline text="ISR_Service " />
+		<outline text="Config " />
+	</outline>
+	<outline text="HWD ">
+		<outline text="GPIO " />
+		<outline text="UART " />
+		<outline text="SPI " />
+		<outline text="FTM " />
+		<outline text="PIT " />
+	</outline>
+	<outline text="HAL">
+		<outline text="MotorServoControl " />
+		<outline text="Object " />
+		<outline text="MPU6050 " />
+		<outline text="WiFi " />
+		<outline text="NFC" />
+		<outline text="Magsensor " />
+	</outline>
+	<outline text="BSW ">
+		<outline text="MagSensorFilter " />
+		<outline text="MPU6050_cal " />
+		<outline text="MotorSpeedSet " />
+		<outline text="Communication Service " />
+		<outline text="ObjectFilter " />
+	</outline>
+	<outline text="ASW">
+		<outline text="A*" />
+		<outline text="LocateService " />
+		<outline text="Object avoid " />
+		<outline text="Path_trace ">
+			<outline text="Output parameter ">
+				<outline text="Status include (way to go&amp;the original direction)" />
+				<outline text="Next to move ">
+					<outline text="Next Direction " />
+					<outline text="Next NFC " />
+				</outline>
+			</outline>
+			<outline text="Monitor parameter ">
+				<outline text="Dir info " />
+				<outline text="NFC info get " />
+			</outline>
+		</outline>
+		<outline text="Moveservice " />
+	</outline>
+</body></opml>
